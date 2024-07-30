@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Public+Sans:wght@400;700&display=swap" rel="stylesheet" />
+    <link href="./styles/styles.css" rel="stylesheet" />
+    <link href="./styles/home.css" rel="stylesheet" />
+    <title>Frontend Mentor | PayAPI Website Challenge</title>
+  </head>
+
+  <body>
+    <div class="menu-backdrop">
+      <div class="menu">
+        <div class="menu-circle"></div>
+        <ul>
+          <li>
+            <button type="button"  class="closeBtn">
+              <img src="./assets/shared/mobile/close.svg" alt="close button" />
+            </button>
+          </li>
+          <li class="line"><hr></li>
+          <li><a class="link header-link" href="./pricing.html">Pricing</a></li>
+          <li><a class="link header-link" href="./about.html">About</a></li>
+          <li><a class="link header-link" href="./contact.html">Contact</a></li>
+          <li><button  class="btn-schedule-demo">Schedule a Demo</button></li>
+        </ul>
+      </div>
+    </div>
+    <header class="header-container">
+      <div class="header">
+        <img src="./img/bg-pattern-circle.svg" alt="" class="circle-bg" />
+        <nav class="nav-bar">
+          <a href="./index.html"><img class="logo" src="./img/logo-header.png" alt="logo" /></a>
+          <a class="link header-link" href="./pricing.html">Pricing</a>
+          <a class="link header-link" href="./about.html">About</a>
+          <a class="link header-link" href="./contact.html">Contact</a>
+          <button  class="btn-schedule-demo">Schedule a Demo</button>
+          <button  class="hamburger">
+            <img src="./img/menu.svg" alt="" />
+          </button>
+        </nav>
+        <div class="content">
+          <div class="info">
+            <h1 class="main-heading">Start building with our APIs for absolutely free.</h1>
+            <form class="schedule-demo-container">
+              <input type="text" name="schedule-demo" placeholder="Enter email address" />
+              <button type="button" class="btn-schedule-demo">Schedule a Demo</button>
+            </form>
+            <div class="text-group">
+              <p class="questions-text">Have any questions?</p>
+              <a class="link header-link" href="./contact.html">Contact Us</a>
+            </div>
+          </div>
+          <img src="./img/phone-macu[.svg" class="phone-mockup" alt="phone mockup"/>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="clients-block">
+        <div class="block-container">
+          <div class="clients-block-content">
+            <div class="clients-block-desc">
+              <h2 class="heading-2">Who we work with</h2>
+              <p class="desc">
+                Today, millions of people around the world have successfully connected their accounts to apps they love using our API. We provide developers with the tools they need to create easy and accessible experiences for their users.
+              </p>
+            </div>
+            <div class="logos-container">
+              <img src="./img/tesla-png.svg" alt="tesla"/>
+              <img src="./img/micrasoft.svg" alt="microsoft" />
+              <img src="./img/xp-computer-logo.svg" alt="hewlett-packard" />
+              <img src="./img/Oralse.svg" alt="oracle"/>
+              <img src="./img/gogle.svg" alt="google"/>
+              <img src="./img/nvidia.svg" alt="nvidia"/>
+            </div>
+            <img src="./img/bg-pattern-circle.svg" alt="" class="circle-bg" />
+          </div>
+          <a href="./about.html" class="btn-wrapper about-us">About Us</a>
+        </div>
+      </section>
+    </main>
+    <section class="misc-block" aria-label="Additional Information about Our Services">
+      <div class="misc-block-container">
+        <div class="misc-block-api">
+          <img src="./img/empliments.svg" class="easy-img" alt="easy-to-implement" />
+          <div class="api-desc">
+            <h2 class="heading-2">Easy to implement</h2>
+            <p class="desc">Our API comes with just a few lines of code. You’ll be up and running in no time. We built our documentation page to handle payments functionality with ease.</p>
+          </div>
+        </div>
+        <div class="misc-block-api simple">
+          <div class="api-desc">
+            <h2 class="heading-2">Simple UI & UX</h2>
+            <p class="desc">Our pre-built form is easy to integrate in your app or website’s checkout flow and designed to optimize conversion.</p>
+          </div>
+          <img src="./img/illustration-simple-ui.svg" class="simple-ui-img" alt="simple ui" />
+          <img src="./img/bg-pattern-circle.svg" alt="" class="circle-bg" />
+        </div>
+        <div class="teams-data">
+          <figure>
+            <img src="./img/money-tanga.svg" alt="icon-personal-finances"/>
+            <figcaption>
+              <h3 class="heading-3">Personal Finances</h3>
+              <p class="desc">Consolidate financial data from multiple sources and categorize transactions up to 2 years of history. Analyze reports to reconcile activities in your account.</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img src="./img/banking.svg" alt="icon-banking-"/>
+            <figcaption>
+              <h3 class="heading-3">Banking & Coverage</h3>
+              <p class="desc">With our platform, you can speed up account onboarding and support ongoing payments for checking, savings, credit card, and brokerage accounts.</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img src="./img/paymets.svg" alt="payments"/>
+            <figcaption>
+              <h3 class="heading-3">Consumer Payments</h3>
+              <p class="desc">It's easier to set up secure bank payments with us through a flow designed with the user experience in mind. Customers could instantly authenticate their account.</p>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+    <section class="start-block">
+      <div class="start-block-container">
+        <p class="ready-to-start">Ready to start?</p>
+        <form class="schedule-demo-container">
+          <input type="text" placeholder="Enter email address"/>
+          <button class="btn-schedule-demo">Schedule a Demo</button>
+        </form>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer-container">
+        <img src="./img/logo-header.png" alt="logo" class="footer-icon" />
+        <ul class="nav-links">
+          <li><a class="link header-link" href="./pricing.html">Pricing</a></li>
+          <li><a class="link header-link" href="./about.html">About</a></li>
+          <li><a class="link header-link" href="./contact.html">Contact</a></li>
+        </ul>
+        <ul class="nav-socials">
+          <li>
+            <a class="link header-link" href="http://www.facebook.com" target="_blank"><img src="./img/facebook.svg" alt="facebook"/></a>
+          </li>
+          <li>
+            <a class="link header-link" href="http://www.twitter.com" target="_blank"><img src="./img/twitter.svg" alt="twitter"/></a>
+          </li>
+          <li>
+            <a class="link header-link" href="http://www.linkedin.com" target="_blank"><img src="./img/linkedin.svg" alt="linkedin"/></a>
+          </li>
+        </ul>
+        <img src="./img/bg-pattern-circle.svg" alt="" class="circle-bg" />
+      </div>
+    </footer>
+  </body>
+</html>
